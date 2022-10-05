@@ -1,9 +1,12 @@
 name: 'Netlify Preview Deploy'
 run-name: ${{ github.actor }} is deploying the site
-on: push
+on: 
+  pull_request:
+    branches:
+      - main
 jobs:
   deploy:
-    # name: 'Deploy'
+    name: 'Deploy'
     runs-on: ubuntu-latest
 
     steps:
