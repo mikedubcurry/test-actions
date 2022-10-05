@@ -2,3 +2,5 @@
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
 <a href="/pagetwo">page two</a>
+
+<h1>wow</h1>
