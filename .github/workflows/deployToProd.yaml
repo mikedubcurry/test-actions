@@ -1,6 +1,6 @@
 name: 'Netlify Preview Deploy'
 run-name: ${{ github.actor }} is deploying the site
-on: [push]
+on: push
 jobs:
   deploy:
     # name: 'Deploy'
